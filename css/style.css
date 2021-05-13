@@ -269,15 +269,11 @@ img {
   border: 2px solid #a7c353;
   border-radius: 50%;
   outline: none;
+  cursor: pointer;
 }
 
 .offers__slider-list .slick-arrow:hover {
   opacity: 0.8;
-}
-
-.offers__slider-list .slick-arrow:focus,
-.offers__slider-list .slick-arrow:active {
-  opacity: 0.6;
 }
 
 .offers__slider-list .slick-arrow.slick-prev {
@@ -325,15 +321,11 @@ img {
   border-radius: 50%;
   border: 0 none;
   outline: none;
+  cursor: pointer;
 }
 
 .offers__slider-list .slick-dots button:hover {
   opacity: 0.8;
-}
-
-.offers__slider-list .slick-dots button:focus,
-.offers__slider-list .slick-dots button:active {
-  opacity: 0.6;
 }
 
 .offers__slider-list .slick-dots li.slick-active button {
@@ -789,6 +781,7 @@ img {
   padding: 0;
   font-family: "Georgia", "Times New Roman", serif;
   font-weight: 400;
+  color: #999999;
   border: 0 none;
   border-radius: 5px;
   background-color: #3a3a3a;
@@ -802,20 +795,16 @@ img {
   border: 1px solid #cdcdcd;
 }
 
-.contact__input-text:active,
-.contact__input-text:focus,
-.contact__textarea:active,
-.contact__textarea:focus {
-  outline: thin;
-  border: 2px solid #444444;
-}
-
 .contact__input-text {
+  width: 225px;
+  height: 33px;
   margin-bottom: 10px;
   padding: 9px 0 9px 20px;
 }
 
 .contact__textarea {
+  width: 225px;
+  height: 105px;
   margin-bottom: 6px;
   padding: 6px 0 70px 20px;
 }
@@ -837,12 +826,6 @@ img {
 .contact__button:hover {
   opacity: 0.8;
   color: #999999;
-}
-
-.contact__button:focus,
-.contact__button:active {
-  color: #999999;
-  opacity: 0.4;
 }
 
 .page-footer__wrapper {
